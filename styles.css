@@ -162,6 +162,17 @@ footer {
   #image-with-tip:hover .tooltiptext {
       visibility: visible;
   }
+  .git-container{
+      border: 1px solid ;
+      display: flex;
+      
+      justify-content:flex-end;
+  }
+  .github{
+      border: 1px red solid;
+      ;
+      
+  }
 
 /* added for screen responsiveness */
 
@@ -171,6 +182,9 @@ footer {
     }
 
     .footer-left {
+        justify-content: center;
+    }
+    .footer-git {
         justify-content: center;
     }
 
